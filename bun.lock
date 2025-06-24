@@ -1,0 +1,23 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "n64js",
+      "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.2",
+        "lil-gui": "^0.18.2",
+        "mitata": "^0.1.6",
+      },
+    },
+  },
+  "packages": {
+    "@popperjs/core": ["@popperjs/core@2.11.8", "", {}, "sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A=="],
+
+    "bootstrap": ["bootstrap@5.3.7", "", { "peerDependencies": { "@popperjs/core": "^2.11.8" } }, "sha512-7KgiD8UHjfcPBHEpDNg+zGz8L3LqR3GVwqZiBRFX04a1BCArZOz1r2kjly2HQ0WokqTO0v1nF+QAt8dsW4lKlw=="],
+
+    "lil-gui": ["lil-gui@0.18.2", "", {}, "sha512-DgdrLy3/KGC0PiQLKgOcJMPItP4xY4iWgJ9+91Zaxfr8GCTmMps05QS9w9jW7yspILlbscbquwjOwxmWnSx5Uw=="],
+
+    "mitata": ["mitata@0.1.14", "", {}, "sha512-8kRs0l636eT4jj68PFXOR2D5xl4m56T478g16SzUPOYgkzQU+xaw62guAQxzBPm+SXb15GQi1cCpDxJfkr4CSA=="],
+  }
+}
